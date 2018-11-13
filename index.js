@@ -20,10 +20,9 @@ function viewCart() {
     return "Your shopping cart is empty"
     
   } else if (cart.length === 1) {
-    return "In your cart, you have " + cart.itemName + " at" + cart.itemPrice + "."
+    return "In your cart, you have " + cart.itemName + " at " + cart.itemPrice + "."
   } else if (cart.length > 1) {
-    
-    return "In your cart, you have " cart.push() 
+    cart.push(cart.itemName + " at " + cart.itemPrice)
   }
 }
 
