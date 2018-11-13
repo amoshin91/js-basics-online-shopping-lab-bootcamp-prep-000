@@ -22,7 +22,8 @@ function viewCart() {
   } else if (cart.length === 1) {
     return "In your cart, you have " + itemName + " at" + itemPrice + "."
   } else if (cart.length > 1) {
-    return ""
+    
+    return "In your cart, you have " cart.push() 
   }
 }
 
