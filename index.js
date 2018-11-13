@@ -18,6 +18,7 @@ function addToCart(item) {
 function viewCart() {
   if {
     
+    
   } else {
     
   };
